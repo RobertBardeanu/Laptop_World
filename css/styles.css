@@ -1,0 +1,60 @@
+:root{
+    --textfarbe :rgb(0,255,0)
+}
+body{
+    background-color: rgba(0, 0, 0, 1);
+    font-family:"Bebasneue";
+}
+@font-face {
+  font-family: 'Bebasneue';
+  src: url('/fonts/BebasNeue-Regular.ttf');
+
+}
+nav{
+    text-align: center;
+}
+#logo{
+text-align: center;
+}
+.buttons{
+
+    width: 40px;
+}
+main{ color: var(--textfarbe);}
+footer{    
+    color:var(--textfarbe)
+}
+.buttons:hover {
+      
+    background-color: rgb(255, 255, 255);
+}
+#standorte.img{
+width: 20px;
+height: 200px;
+}
+#standorte.a{
+    color:var(--textfarbe)
+}
+aside{
+   
+  width: 30%;
+  padding-left: 10px;
+  margin-left: 10px;
+  float: right;
+  
+}
+.produkte{
+ margin: 200px;
+ size: 20px;
+  
+}
+.produkte.img{
+margin: 20px;
+}
+
+
+
+
+
+
+

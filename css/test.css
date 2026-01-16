@@ -1,0 +1,12 @@
+.results.summary {
+        text-indent: 1em;
+}
+
+10[title*="t"] {
+        text-align: center;
+}
+
+12article p.summary {
+        text-indent: 2em;
+        font-weight: bold;
+}   
