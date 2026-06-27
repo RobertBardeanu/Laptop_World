@@ -1,18 +1,91 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<title>Laptop World</title>
-<meta charset="UTF-8">
-<meta name="description" content="Laptop">
- <meta name="author" content="Robert Bardeanu">
-<link rel="stylesheet" href="css/styles.css">
-  <link rel="icon"  href="/media/img/logo.ico">
+  <title>Laptop World</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Laptop Shop – Günstige Laptops online kaufen">
+  <meta name="author" content="Robert Bardeanu">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="/media/img/logo.ico">
 </head>
-
 <body>
-    <div class="produkte">
-    <a  href="/laptop.html"><img src="/media/img/laptop.jpg" width="200" height="200" alt="laptop"> </a></div>
-    </div>
 
+  <nav id="nav">
+    <a href="produkte.html"><img class="buttons" src="/media/img/shopping-cart.png" alt="Produkte"></a>
+    <a href="/standorte.html"><img class="buttons" src="/media/img/location-pin.png" alt="Standort"></a>
+    <a href="/hilfe.html"><img class="buttons" src="/media/img/help.png" alt="Hilfe"></a>
+    <br>
+    <img id="logo" src="/media/img/logo.png" width="60" height="60" alt="Laptop World Logo">
+  </nav>
+  <aside id="Liste">
+</aside>
+
+  <main>
+    <h2>Unsere Laptops</h2>
+
+  <li class="produkt">
+  <h3 class="produkt-name">Apple MacBook Pro 14" M3 Pro</h3>
+  <p>Prozessor: Apple M3 Pro | RAM: 18 GB | Speicher: 512 GB SSD | Display: 14 Zoll</p>
+  <p>Preis: 2.199 €</p>
+  <a href="#" onclick="inWarenkorb('Apple MacBook Pro 14 M3 Pro', 2199)">Jetzt kaufen</a>
+</li>
+
+<li class="produkt">
+  <h3 class="produkt-name">ASUS ROG Zephyrus G16 RTX 4070</h3>
+  <p>Prozessor: Intel Core i9 | RAM: 16 GB | Speicher: 1 TB SSD | Display: 16 Zoll 165 Hz</p>
+  <p>Preis: 1.699 € <s>1.999 €</s></p>
+  <a href="#" onclick="inWarenkorb('ASUS ROG Zephyrus G16 RTX 4070', 1699)">Jetzt kaufen</a>
+</li>
+
+<li class="produkt">
+  <h3 class="produkt-name">Dell XPS 13 Plus OLED</h3>
+  <p>Prozessor: Intel Core Ultra 7 | RAM: 16 GB | Speicher: 512 GB SSD | Display: 13 Zoll OLED</p>
+  <p>Preis: 1.349 €</p>
+  <a href="#" onclick="inWarenkorb('Dell XPS 13 Plus OLED', 1349)">Jetzt kaufen</a>
+</li>
+
+<li class="produkt">
+  <h3 class="produkt-name">Lenovo ThinkPad X1 Carbon Gen 12</h3>
+  <p>Prozessor: Intel Core Ultra 5 | RAM: 16 GB | Speicher: 512 GB SSD | Display: 14 Zoll</p>
+  <p>Preis: 1.499 €</p>
+  <a href="#" onclick="inWarenkorb('Lenovo ThinkPad X1 Carbon Gen 12', 1499)">Jetzt kaufen</a>
+</li>
+
+<li class="produkt">
+  <h3 class="produkt-name">Acer Swift Go 14 OLED</h3>
+  <p>Prozessor: AMD Ryzen 5 7530U | RAM: 16 GB | Speicher: 512 GB SSD | Display: 14 Zoll OLED</p>
+  <p>Preis: 799 €</p>
+  <a href="#" onclick="inWarenkorb('Acer Swift Go 14 OLED', 799)">Jetzt kaufen</a>
+</li>
+
+<li class="produkt">
+  <h3 class="produkt-name">MSI Raider GE78 HX RTX 4090</h3>
+  <p>Prozessor: Intel Core i9 | RAM: 64 GB | Speicher: 2 TB SSD | Display: 17 Zoll 240 Hz</p>
+  <p>Preis: 3.299 €</p>
+  <a href="#" onclick="inWarenkorb('MSI Raider GE78 HX RTX 4090', 3299)">Jetzt kaufen</a>
+</li>
+
+<li class="produkt">
+  <h3 class="produkt-name">HP Spectre x360 14 2-in-1</h3>
+  <p>Prozessor: Intel Core Ultra 7 | RAM: 16 GB | Speicher: 1 TB SSD | Display: 14 Zoll OLED Touch</p>
+  <p>Preis: 1.199 € <s>1.399 €</s></p>
+  <a href="#" onclick="inWarenkorb('HP Spectre x360 14 2-in-1', 1199)">Jetzt kaufen</a>
+</li>
+
+<li class="produkt">
+  <h3 class="produkt-name">Samsung Galaxy Book4 Pro 360</h3>
+  <p>Prozessor: Intel Core Ultra 7 | RAM: 16 GB | Speicher: 512 GB SSD | Display: 14 Zoll AMOLED</p>
+  <p>Preis: 1.099 €</p>
+  <a href="#" onclick="inWarenkorb('Samsung Galaxy Book4 Pro 360', 1099)">Jetzt kaufen</a>
+</li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Laptop World – Robert Bardeanu</p>
+  </footer>
+
+    <script src="js/warenkorb_skript.js"></script>
 </body>
 </html>

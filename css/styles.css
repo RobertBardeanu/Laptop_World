@@ -1,60 +1,74 @@
-:root{
-    --textfarbe :rgb(0,255,0)
-}
-body{
-    background-color: rgba(0, 0, 0, 1);
-    font-family:"Bebasneue";
-}
 @font-face {
-  font-family: 'Bebasneue';
+  font-family: 'BebasNeue';
   src: url('/fonts/BebasNeue-Regular.ttf');
+}
 
+:root {
+  --textfarbe: rgb(0, 255, 0);
 }
-nav{
-    text-align: center;
-}
-#logo{
-text-align: center;
-}
-.buttons{
 
-    width: 40px;
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: 'BebasNeue', sans-serif;
+  color: var(--textfarbe);
 }
-main{ color: var(--textfarbe);}
-footer{    
-    color:var(--textfarbe)
+
+nav {
+  text-align: center;
 }
+
+#logo {
+  text-align: center;
+}
+
+main {
+  color: var(--textfarbe);
+}
+
+footer {
+  color: var(--textfarbe);
+}
+
+h2 {
+  color: green;
+}
+
+h3 {
+  color: green;
+}
+
+p {
+  color: green;
+}
+
+.buttons {
+  width: 40px;
+}
+
 .buttons:hover {
-      
-    background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
-#standorte.img{
-width: 20px;
-height: 200px;
+
+.produkt {
+  margin: 20px;
 }
-#standorte.a{
-    color:var(--textfarbe)
+
+.produkt img {
+  margin: 20px;
 }
-aside{
-   
+
+aside {
   width: 30%;
   padding-left: 10px;
   margin-left: 10px;
   float: right;
-  
-}
-.produkte{
- margin: 200px;
- size: 20px;
-  
-}
-.produkte.img{
-margin: 20px;
 }
 
+#standorte img {
+  width: 20px;
+  height: 200px;
+}
 
-
-
-
-
-
+#standorte a {
+  color: var(--textfarbe);
+}
